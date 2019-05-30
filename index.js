@@ -8,34 +8,6 @@ function Login() {
 	}
 }
 
-// function Troll() {
-//         window.open('','',''),
-//         window.open('','',''),
-//         window.open('','',''),
-//         window.open('','',''),
-//         window.open('','',''),
-//         window.open('','',''),
-//         window.open('','',''),
-//         window.open('','',''),
-//         window.open('','',''),
-//         window.open('','',''),
-//         window.open('','',''),
-//         window.open('','',''),
-//         window.open('','',''),
-//         window.open('','',''),
-//         window.open('','',''),
-//         window.open('','',''),
-//         window.open('','',''),
-//         window.open('','',''),
-//         window.open('','',''),
-//         window.open('','',''),
-//         window.open('','',''),
-//         window.open('','',''),
-//         window.open('','',''),
-//         window.open('','',''),
-//         window.open('','',''),
-//         window.open('','','');
-// }
 
 function Help() {
     window.location.replace("https://www.google.fr");
