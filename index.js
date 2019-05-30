@@ -6,5 +6,38 @@ function Login() {
 	} else { 
 	    alert("Mauvais mot de passe !"); 
 	}
+}
 
+// function Troll() {
+//         window.open('','',''),
+//         window.open('','',''),
+//         window.open('','',''),
+//         window.open('','',''),
+//         window.open('','',''),
+//         window.open('','',''),
+//         window.open('','',''),
+//         window.open('','',''),
+//         window.open('','',''),
+//         window.open('','',''),
+//         window.open('','',''),
+//         window.open('','',''),
+//         window.open('','',''),
+//         window.open('','',''),
+//         window.open('','',''),
+//         window.open('','',''),
+//         window.open('','',''),
+//         window.open('','',''),
+//         window.open('','',''),
+//         window.open('','',''),
+//         window.open('','',''),
+//         window.open('','',''),
+//         window.open('','',''),
+//         window.open('','',''),
+//         window.open('','',''),
+//         window.open('','','');
+// }
+
+function Help() {
+    window.location.replace("https://www.google.fr");
+    alert("Google est ton ami ! :-)");
 }

@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 <body>
+    <div class="help">
+        <input onclick="Help()" type="button" class="btnhelp" name="btnhelp" value="Help ?">
+    </div>
     <form name="login" method="POST" action="">
         <div class="login-box">
             <h1>Login</h1>
@@ -23,15 +26,15 @@
             <input onclick="Login()" class="btn" type="button" name="button" value="Login">
         </div>
         <div>
-            <div> <p style="color: rgb(54, 54, 54)">Y'a rien à voir ici ...</p>
+            <div> <p id="hidelinks">Y'a rien à voir ici ...</p>
                 <div>
                     <div>
-                        <div> <p style="color: rgb(54, 54, 54)">N'insistes pas !</p>
+                        <div> <p id="hidelinks">N'insistes pas !</p>
                             <div>
-                                <div> <a href="http://www.nooooooooooooooo.com/" style="color: rgb(54, 54, 54)">Noooooooooo !</a>
+                                <div> <a id="hidelinks" href="http://www.nooooooooooooooo.com/">Noooooooooo !</a>
                                     <div>
                                         <div class="T'y es presque ! :-)">
-                                                <a href="Questionnaire.html" style="color: rgb(54, 54, 54)">CLICK ICI ! :-)</a>
+                                                <a id="hidelinks" href="Questionnaire.html">CLICK ICI ! :-)</a>
                                         </div>
                                     </div>
                                 </div>
@@ -42,6 +45,9 @@
             </div>
         </div>
     </form>
+    <!-- <div class="troll">
+        <input onclick="Troll()" type="button" class="trlhelp" name="trlhelp" value="Do not click">
+    </div> -->
     <script src="index.js"></script>
 </body>
 </html>
