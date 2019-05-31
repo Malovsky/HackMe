@@ -8,7 +8,6 @@ function Login() {
 	}
 }
 
-
 function Help() {
     window.location.replace("http://lmgtfy.com/?q=Comment+hacker+un+super+site+internet+bien+s%C3%A9curis%C3%A9+!!!!");
     alert("Google est ton ami ! :-)");
